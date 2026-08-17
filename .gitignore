@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.tmp-libs/
+.venv/
+*.png
+.DS_Store

@@ -1,0 +1,210 @@
+{
+  "github": "abutbul",
+  "handle": "abutbul",
+  "name": "David Abutbul",
+  "title": "Full-stack developer · BBS & MCP enthusiast",
+  "location": "Israel",
+  "blog": "https://abutbul.com",
+  "palette": "acidi16",
+  "neofetch": {
+    "host": "abutbul-bbs",
+    "os": "Debian GNU/Linux (WSL2)",
+    "uptime": "est. Dec 2010",
+    "kernel": "full-stack engineer",
+    "shell": "bash · zsh",
+    "terminal": "cool-retro-term",
+    "editor": "neovim",
+    "focus": "MCP + LLM agents",
+    "languages": "Python · TypeScript · C++ · Shell",
+    "interests": "BBS scene · MCP servers · LLM agents"
+  },
+  "menu": [
+    {
+      "key": "A",
+      "label": "About"
+    },
+    {
+      "key": "P",
+      "label": "Projects"
+    },
+    {
+      "key": "W",
+      "label": "Work Experience"
+    },
+    {
+      "key": "S",
+      "label": "Skills"
+    },
+    {
+      "key": "C",
+      "label": "Contact"
+    },
+    {
+      "key": "Q",
+      "label": "Quit"
+    }
+  ],
+  "about": [
+    "David Abutbul — full-stack developer and old-school BBS head.",
+    "I build MCP servers, LLM agent tooling and retro systems.",
+    "Running a Synchronet BBS for fun, keeping the 80s-90s scene alive.",
+    "Give me a dial-up tone and a 16-color palette and I am home."
+  ],
+  "projects": [
+    {
+      "name": "openapi-mcp-generator",
+      "url": "https://github.com/abutbul/openapi-mcp-generator",
+      "desc": "Turn OpenAPI/Swagger specs into Docker-ready MCP servers (SSE/IO, auth).",
+      "tags": [
+        "Python",
+        "MCP",
+        "Docker"
+      ],
+      "stars": 28
+    },
+    {
+      "name": "mod-game-state-api",
+      "url": "https://github.com/abutbul/mod-game-state-api",
+      "desc": "AzerothCore game-state API.",
+      "tags": [
+        "C++",
+        "Game"
+      ],
+      "stars": 6
+    },
+    {
+      "name": "NoDrums",
+      "url": "https://github.com/abutbul/NoDrums",
+      "desc": "Karaoke track maker using Spleeter + sox (vocal/drum separation).",
+      "tags": [
+        "Python",
+        "Audio",
+        "ML"
+      ],
+      "stars": 5
+    },
+    {
+      "name": "docker-knapsack-llm",
+      "url": "https://github.com/abutbul/docker-knapsack-llm",
+      "desc": "Computer-use Docker player for LLM research.",
+      "tags": [
+        "Docker",
+        "LLM",
+        "Shell"
+      ],
+      "stars": 4
+    },
+    {
+      "name": "mcp-host",
+      "url": "https://github.com/abutbul/mcp-host",
+      "desc": "API connecting an Ollama model to MCP servers for agents.",
+      "tags": [
+        "Python",
+        "MCP",
+        "Ollama"
+      ],
+      "stars": 1
+    },
+    {
+      "name": "imgen",
+      "url": "https://github.com/abutbul/imgen",
+      "desc": "Generate consistent 4-directional sprite views.",
+      "tags": [
+        "Python",
+        "Graphics"
+      ],
+      "stars": 1
+    },
+    {
+      "name": "gizbar",
+      "url": "https://github.com/abutbul/gizbar",
+      "desc": "Serverless, client-side expense tracker.",
+      "tags": [
+        "TypeScript"
+      ],
+      "stars": 0
+    },
+    {
+      "name": "trbbs",
+      "url": "https://github.com/abutbul/trbbs",
+      "desc": "Rule-based Telegram bot system.",
+      "tags": [
+        "Python",
+        "Bots"
+      ],
+      "stars": 0
+    }
+  ],
+  "work": [
+    {
+      "role": "— work history not provided yet —",
+      "org": "paste your roles from LinkedIn/CV here",
+      "period": "",
+      "bullets": [
+        "Add role + company + dates in data/profile.json"
+      ]
+    }
+  ],
+  "skills": {
+    "languages": [
+      "Python",
+      "TypeScript",
+      "JavaScript",
+      "C++",
+      "Shell",
+      "Vue"
+    ],
+    "domains": [
+      "MCP servers",
+      "LLM agents",
+      "BBS systems",
+      "Docker",
+      "game modding",
+      "audio DSP"
+    ],
+    "tools": [
+      "Git",
+      "GitHub Actions",
+      "Docker",
+      "Ollama",
+      "Spleeter/sox",
+      "Quarto"
+    ]
+  },
+  "contact": [
+    {
+      "label": "GitHub",
+      "value": "abutbul",
+      "url": "https://github.com/abutbul"
+    },
+    {
+      "label": "Web",
+      "value": "abutbul.com",
+      "url": "https://abutbul.com"
+    },
+    {
+      "label": "Hacker News",
+      "value": "abutbul",
+      "url": "https://news.ycombinator.com/user?id=abutbul"
+    },
+    {
+      "label": "Email",
+      "value": "you@example.com",
+      "url": "mailto:you@example.com"
+    },
+    {
+      "label": "LinkedIn",
+      "value": "in/your-handle",
+      "url": "https://www.linkedin.com/in/your-handle"
+    }
+  ],
+  "stats": {
+    "enable": true,
+    "show": [
+      "repos",
+      "followers",
+      "following",
+      "stars"
+    ]
+  }
+}
