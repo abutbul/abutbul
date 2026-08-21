@@ -69,7 +69,7 @@
 ---
 
 <p align="center">
-<sub> repos 29 · followers 51 · following 101 · stars 53 (live)</sub>
+<sub> repos 29 · followers 51 · following 102 · stars 53 (live)</sub>
 </p>
 
 <p align="center"><sub>ANSI · 80s–90s BBS scene (ACiD/iCE) · generated from code — <code>generator/generate.py</code> · <code>data/profile.json</code></sub></p>
