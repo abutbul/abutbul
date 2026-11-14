@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="80" viewBox="0 0 800 80" font-family="Consolas,'Liberation Mono','DejaVu Sans Mono',Menlo,monospace" font-size="13">
+<style>text,tspan{white-space:pre}</style>
+<rect width="800" height="80" fill="#000000"/>
+<text x="16" y="14" xml:space="preserve"><tspan fill="#ff5555">▸ </tspan><tspan fill="#55ffff">prompt-security/clawsec</tspan><tspan fill="#ffff55">  ★ 1136</tspan><tspan fill="#555555">  JavaScript · Agents · Security</tspan><tspan fill="#555555">                           → open</tspan></text>
+<text x="16" y="34" xml:space="preserve"><tspan fill="#aaaaaa">   Security skill suite for OpenClaw-family agents: drift detection, audits, integrity checks.</tspan></text>
+<text x="16" y="54" xml:space="preserve"><tspan fill="#555555">   ↳ https://github.com/prompt-security/clawsec</tspan></text>
+</svg>

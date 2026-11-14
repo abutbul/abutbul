@@ -2,7 +2,7 @@
   "github": "abutbul",
   "handle": "abutbul",
   "name": "David Abutbul",
-  "title": "Full-stack developer · BBS & MCP enthusiast",
+  "title": "AI/LLM Research · Open Source Advocate · Security-Minded Engineer · SecOps · Infrastructure · Automation · Radio Amateur 4X5PI",
   "location": "Israel",
   "blog": "https://abutbul.com",
   "palette": "acidi16",
@@ -10,7 +10,7 @@
     "host": "abutbul-bbs",
     "os": "Debian GNU/Linux (WSL2)",
     "uptime": "est. Dec 2010",
-    "kernel": "full-stack engineer",
+    "kernel": "LLM security researcher",
     "shell": "bash · zsh",
     "terminal": "cool-retro-term",
     "editor": "neovim",
@@ -21,36 +21,90 @@
   "menu": [
     {
       "key": "A",
-      "label": "About"
+      "label": "About",
+      "hint": "who runs this board"
     },
     {
       "key": "P",
-      "label": "Projects"
+      "label": "Projects",
+      "hint": "file area"
     },
     {
       "key": "W",
-      "label": "Work Experience"
+      "label": "Work Experience",
+      "hint": "service record"
     },
     {
       "key": "S",
-      "label": "Skills"
+      "label": "Skills",
+      "hint": "system specs"
     },
     {
       "key": "C",
-      "label": "Contact"
+      "label": "Contact",
+      "hint": "page the sysop"
     },
     {
       "key": "Q",
-      "label": "Quit"
+      "label": "Quit",
+      "hint": "log off"
     }
   ],
   "about": [
-    "David Abutbul — full-stack developer and old-school BBS head.",
+    "David Abutbul — LLM security researcher and old-school BBS head.",
     "I build MCP servers, LLM agent tooling and retro systems.",
     "Running a Synchronet BBS for fun, keeping the 80s-90s scene alive.",
     "Give me a dial-up tone and a 16-color palette and I am home."
   ],
   "projects": [
+    {
+      "name": "prompt-security/clawsec",
+      "url": "https://github.com/prompt-security/clawsec",
+      "desc": "Security skill suite for OpenClaw-family agents: drift detection, audits, integrity checks.",
+      "tags": [
+        "JavaScript",
+        "Agents",
+        "Security"
+      ],
+      "stars": 1136,
+      "group": "prompt-security  ·  contributed as davida-ps"
+    },
+    {
+      "name": "prompt-security/ps-fuzz",
+      "url": "https://github.com/prompt-security/ps-fuzz",
+      "desc": "Make your GenAI apps safe & secure: test & harden your system prompt.",
+      "tags": [
+        "Python",
+        "LLM",
+        "Fuzzing"
+      ],
+      "stars": 720,
+      "group": "prompt-security  ·  contributed as davida-ps"
+    },
+    {
+      "name": "prompt-security/RAG_Poisoning_POC",
+      "url": "https://github.com/prompt-security/RAG_Poisoning_POC",
+      "desc": "Stealthy prompt injection and poisoning in RAG systems via vector database embeddings.",
+      "tags": [
+        "Python",
+        "RAG",
+        "Security"
+      ],
+      "stars": 37,
+      "group": "prompt-security  ·  contributed as davida-ps"
+    },
+    {
+      "name": "prompt-security/rag-poisoning-workshop",
+      "url": "https://github.com/prompt-security/rag-poisoning-workshop",
+      "desc": "Hands-on workshop: RAG poisoning / indirect prompt injection via vector DB embeddings.",
+      "tags": [
+        "JavaScript",
+        "RAG",
+        "Workshop"
+      ],
+      "stars": 0,
+      "group": "prompt-security  ·  contributed as davida-ps"
+    },
     {
       "name": "openapi-mcp-generator",
       "url": "https://github.com/abutbul/openapi-mcp-generator",
@@ -60,7 +114,8 @@
         "MCP",
         "Docker"
       ],
-      "stars": 28
+      "stars": 28,
+      "group": "abutbul  ·  personal"
     },
     {
       "name": "mod-game-state-api",
@@ -70,7 +125,8 @@
         "C++",
         "Game"
       ],
-      "stars": 6
+      "stars": 6,
+      "group": "abutbul  ·  personal"
     },
     {
       "name": "NoDrums",
@@ -81,7 +137,8 @@
         "Audio",
         "ML"
       ],
-      "stars": 5
+      "stars": 5,
+      "group": "abutbul  ·  personal"
     },
     {
       "name": "docker-knapsack-llm",
@@ -92,7 +149,8 @@
         "LLM",
         "Shell"
       ],
-      "stars": 4
+      "stars": 4,
+      "group": "abutbul  ·  personal"
     },
     {
       "name": "mcp-host",
@@ -103,7 +161,8 @@
         "MCP",
         "Ollama"
       ],
-      "stars": 1
+      "stars": 1,
+      "group": "abutbul  ·  personal"
     },
     {
       "name": "imgen",
@@ -113,7 +172,8 @@
         "Python",
         "Graphics"
       ],
-      "stars": 1
+      "stars": 1,
+      "group": "abutbul  ·  personal"
     },
     {
       "name": "gizbar",
@@ -122,7 +182,8 @@
       "tags": [
         "TypeScript"
       ],
-      "stars": 0
+      "stars": 0,
+      "group": "abutbul  ·  personal"
     },
     {
       "name": "trbbs",
@@ -132,17 +193,75 @@
         "Python",
         "Bots"
       ],
-      "stars": 0
+      "stars": 0,
+      "group": "abutbul  ·  personal"
     }
   ],
   "work": [
     {
-      "role": "— work history not provided yet —",
-      "org": "paste your roles from LinkedIn/CV here",
-      "period": "",
+      "role": "LLM Security Researcher",
+      "org": "SentinelOne",
+      "period": "Nov 2025 – Present",
       "bullets": [
-        "Add role + company + dates in data/profile.json"
+        "Probe and stress-test large language models for vulnerabilities, exploits, and unintended behaviors.",
+        "Design red-team style attacks on LLM pipelines to uncover weak points before malicious actors do."
       ]
+    },
+    {
+      "role": "LLM Security Researcher",
+      "org": "Prompt Security",
+      "period": "Sep 2025 – Nov 2025",
+      "bullets": [
+        "Probe and stress-test large language models for vulnerabilities, exploits, and unintended behaviors.",
+        "Design red-team style attacks on LLM pipelines to uncover weak points before malicious actors do."
+      ]
+    },
+    {
+      "role": "IT Specialist (Automation & Infrastructure)",
+      "org": "Final",
+      "period": "Oct 2022 – Aug 2024",
+      "bullets": [
+        "Infrastructure Innovation: Designed IaC-driven systems (Ansible/Python) that cut deployment time and replaced legacy tools with open-source solutions.",
+        "Knowledge Sharing: Established a centralized documentation hub (Confluence/Wiki), slashing cross-team onboarding time."
+      ]
+    },
+    {
+      "role": "DevOps Engineer",
+      "org": "Deep Instinct",
+      "period": "Mar 2020 – Oct 2022",
+      "bullets": [
+        "CI Pipeline Optimization: Revamped Jenkins-based CI pipelines, reducing deployment cycles through automated testing and quality gates.",
+        "Devex and Dev Enablement: Shared Library management, Artifactory guidelines and infrastructure, Slack/GitHub integration."
+      ]
+    },
+    {
+      "role": "Solution Center Manager",
+      "org": "Deep Instinct",
+      "period": "Feb 2018 – Mar 2020",
+      "bullets": [
+        "Built and managed a team responsible for production and configuration management, including customer-specific setups (e.g., security thresholds, compliance rules) and maintenance of staging/production environments for AI-driven cybersecurity solutions."
+      ]
+    },
+    {
+      "role": "SaaS Operations – Change Management Engineer / Application Support",
+      "org": "RSA Security",
+      "period": "Jul 2012 – Feb 2018",
+      "bullets": [
+        "Accompanied the integration of new features from SRS to deployment, providing feedback to RND/QE teams to safeguard deployment in production and align with PCI requirements.",
+        "Developed scripts, guides and documentation for handling cryptographic keys."
+      ]
+    },
+    {
+      "role": "IT Manager",
+      "org": "TradeFXL/Markets.com",
+      "period": "Sep 2009 – May 2012",
+      "bullets": []
+    },
+    {
+      "role": "Sysadmin, Helpdesk",
+      "org": "Bynet Data Communications",
+      "period": "May 2006 – Dec 2007",
+      "bullets": []
     }
   ],
   "skills": {
@@ -189,13 +308,13 @@
     },
     {
       "label": "Email",
-      "value": "you@example.com",
-      "url": "mailto:you@example.com"
+      "value": "github@abutbul.com",
+      "url": "mailto:github@abutbul.com"
     },
     {
       "label": "LinkedIn",
-      "value": "in/your-handle",
-      "url": "https://www.linkedin.com/in/your-handle"
+      "value": "in/abutbul",
+      "url": "https://www.linkedin.com/in/abutbul"
     }
   ],
   "stats": {

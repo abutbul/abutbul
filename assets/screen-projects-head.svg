@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="72" viewBox="0 0 800 72" font-family="Consolas,'Liberation Mono','DejaVu Sans Mono',Menlo,monospace" font-size="13">
+<style>text,tspan{white-space:pre}</style>
+<rect width="800" height="72" fill="#000000"/>
+<text x="16" y="26" xml:space="preserve"><tspan fill="#ffff55">[PROJECTS]</tspan><tspan fill="#555555">                                                        click a project to open its repo</tspan></text>
+<text x="16" y="46" xml:space="preserve"><tspan fill="#555555">──────────────────────────────────────────────────────────────────────────────────────────────────</tspan></text>
+</svg>
