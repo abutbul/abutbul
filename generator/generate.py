@@ -23,6 +23,7 @@ import json
 import os
 import re
 import sys
+import textwrap
 import urllib.request
 
 from ansi import PALETTE, FONT_FAMILY, figlet, split_runs, xesc, truncate
@@ -59,6 +60,12 @@ def fmt(x):
 
 def slug(s):
     return re.sub(r"[^a-z0-9]+", "-", str(s).lower()).strip("-") or "x"
+
+
+def wrap(text, first, rest, cols=COLS):
+    """Word-wrap ``text`` to the screen width with hanging indentation."""
+    return textwrap.wrap(str(text), width=cols, initial_indent=first,
+                         subsequent_indent=rest, break_long_words=False) or [first]
 
 
 def pad_between(left, right, cols=COLS):
@@ -289,7 +296,8 @@ def screen_about(data):
     s = Screen()
     s.title("About")
     for line in data.get("about", []):
-        s.text("  " + line, color="lgray")
+        for part in wrap(line, "  ", "  "):
+            s.text(part, color="lgray")
     s.blank()
     s.footer("end of screen  ·  pick another key from the menu")
     return s
@@ -299,14 +307,16 @@ def screen_work(data):
     s = Screen()
     s.title("Work Experience")
     for w in data.get("work", []):
-        s.line([("▸ ", "bred"), (w.get("role", ""), "bcyan")])
+        role, period = w.get("role", ""), w.get("period", "")
+        head = [("▸ ", "bred"), (role, "bcyan")]
+        if period:
+            head.append((pad_between(2 + len(role), len(period)) + period, "dgray"))
+        s.line(head)
         if w.get("org"):
-            seg = [("   " + w["org"], "lgray")]
-            if w.get("period"):
-                seg.append(("  " + w["period"], "dgray"))
-            s.line(seg)
+            s.text("   " + w["org"], color="white")
         for bl in w.get("bullets", []):
-            s.text("   - " + bl, color="lgray")
+            for part in wrap(bl, "   - ", "     "):
+                s.text(part, color="lgray")
         s.blank()
     s.footer("end of screen  ·  pick another key from the menu")
     return s
@@ -333,6 +343,14 @@ def screen_list_head(label, hint):
 def screen_list_tail(text):
     s = Screen(pad_top=0)
     s.footer(text)
+    return s
+
+
+def screen_group(label):
+    s = Screen(pad_top=0, pad_bottom=0)
+    s.line([("── ", "dgray"), (label, "yellow"),
+            (" " + "─" * max(3, COLS - len(label) - 4), "dgray")])
+    s.blank()
     return s
 
 
@@ -487,7 +505,12 @@ def build_page(data, stats):
             head = page.asset("screen-projects-head.svg",
                               screen_list_head("Projects", "click a project to open its repo"))
             body = [page.plain(head, "Projects")]
+            group = None
             for p in projects:
+                if p.get("group") and p["group"] != group:
+                    group = p["group"]
+                    src = page.asset("group-" + slug(group) + ".svg", screen_group(group))
+                    body.append(page.plain(src, group))
                 src = page.asset("proj-" + slug(p["name"]) + ".svg", screen_project(p))
                 body.append(page.linked(
                     src, p["name"] + " — " + p.get("desc", "") + " (" + str(p.get("stars", 0))
@@ -547,7 +570,15 @@ def plain_text_mode(data, stats):
     L.append('</ul>')
     L.append('<h4>Projects</h4>')
     L.append('<ul>')
+    group = None
     for p in data.get("projects", []):
+        if p.get("group") and p["group"] != group:
+            group = p["group"]
+            if L[-1] == '<ul>':
+                L.pop()
+            else:
+                L.append('</ul>')
+            L.extend(['<p><b>' + xesc(group) + '</b></p>', '<ul>'])
         L.append('<li><a href="' + xesc(p["url"]) + '"><b>' + xesc(p["name"]) + '</b></a> — '
                  + xesc(p.get("desc", "")) + ' <sub>' + xesc(" · ".join(p.get("tags", [])))
                  + '</sub></li>')
@@ -560,7 +591,7 @@ def plain_text_mode(data, stats):
             head += ' — ' + xesc(w["org"])
         if w.get("period"):
             head += ' (' + xesc(w["period"]) + ')'
-        bullets = "".join('<br />' + xesc(bl) for bl in w.get("bullets", []))
+        bullets = "".join('<br />– ' + xesc(bl) for bl in w.get("bullets", []))
         L.append('<li>' + head + bullets + '</li>')
     L.append('</ul>')
     L.append('<h4>Skills</h4>')

@@ -1,12 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="184" viewBox="0 0 800 184" font-family="Consolas,'Liberation Mono','DejaVu Sans Mono',Menlo,monospace" font-size="13">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1024" viewBox="0 0 800 1024" font-family="Consolas,'Liberation Mono','DejaVu Sans Mono',Menlo,monospace" font-size="13">
 <style>text,tspan{white-space:pre}</style>
-<rect width="800" height="184" fill="#000000"/>
+<rect width="800" height="1024" fill="#000000"/>
 <text x="16" y="26" xml:space="preserve"><tspan fill="#ffff55">[WORK EXPERIENCE]</tspan></text>
 <text x="16" y="46" xml:space="preserve"><tspan fill="#555555">──────────────────────────────────────────────────────────────────────────────────────────────────</tspan></text>
-<text x="16" y="66" xml:space="preserve"><tspan fill="#ff5555">▸ </tspan><tspan fill="#55ffff">— work history not provided yet —</tspan></text>
-<text x="16" y="86" xml:space="preserve"><tspan fill="#aaaaaa">   paste your roles from LinkedIn/CV here</tspan></text>
-<text x="16" y="106" xml:space="preserve"><tspan fill="#aaaaaa">   - Add role + company + dates in data/profile.json</tspan></text>
-<text x="16" y="146" xml:space="preserve"><tspan fill="#555555">──────────────────────────────────────────────────────────────────────────────────────────────────</tspan></text>
-<text x="16" y="166" xml:space="preserve"><tspan fill="#555555">end of screen  ·  pick another key from the menu</tspan></text>
+<text x="16" y="66" xml:space="preserve"><tspan fill="#ff5555">▸ </tspan><tspan fill="#55ffff">LLM Security Researcher</tspan><tspan fill="#555555">                                                       Nov 2025 – Present</tspan></text>
+<text x="16" y="86" xml:space="preserve"><tspan fill="#ffffff">   SentinelOne</tspan></text>
+<text x="16" y="106" xml:space="preserve"><tspan fill="#aaaaaa">   - Probe and stress-test large language models for vulnerabilities, exploits, and unintended</tspan></text>
+<text x="16" y="126" xml:space="preserve"><tspan fill="#aaaaaa">     behaviors.</tspan></text>
+<text x="16" y="146" xml:space="preserve"><tspan fill="#aaaaaa">   - Design red-team style attacks on LLM pipelines to uncover weak points before malicious actors</tspan></text>
+<text x="16" y="166" xml:space="preserve"><tspan fill="#aaaaaa">     do.</tspan></text>
+<text x="16" y="206" xml:space="preserve"><tspan fill="#ff5555">▸ </tspan><tspan fill="#55ffff">LLM Security Researcher</tspan><tspan fill="#555555">                                                      Sep 2025 – Nov 2025</tspan></text>
+<text x="16" y="226" xml:space="preserve"><tspan fill="#ffffff">   Prompt Security</tspan></text>
+<text x="16" y="246" xml:space="preserve"><tspan fill="#aaaaaa">   - Probe and stress-test large language models for vulnerabilities, exploits, and unintended</tspan></text>
+<text x="16" y="266" xml:space="preserve"><tspan fill="#aaaaaa">     behaviors.</tspan></text>
+<text x="16" y="286" xml:space="preserve"><tspan fill="#aaaaaa">   - Design red-team style attacks on LLM pipelines to uncover weak points before malicious actors</tspan></text>
+<text x="16" y="306" xml:space="preserve"><tspan fill="#aaaaaa">     do.</tspan></text>
+<text x="16" y="346" xml:space="preserve"><tspan fill="#ff5555">▸ </tspan><tspan fill="#55ffff">IT Specialist (Automation &amp; Infrastructure)</tspan><tspan fill="#555555">                                  Oct 2022 – Aug 2024</tspan></text>
+<text x="16" y="366" xml:space="preserve"><tspan fill="#ffffff">   Final</tspan></text>
+<text x="16" y="386" xml:space="preserve"><tspan fill="#aaaaaa">   - Infrastructure Innovation: Designed IaC-driven systems (Ansible/Python) that cut deployment</tspan></text>
+<text x="16" y="406" xml:space="preserve"><tspan fill="#aaaaaa">     time and replaced legacy tools with open-source solutions.</tspan></text>
+<text x="16" y="426" xml:space="preserve"><tspan fill="#aaaaaa">   - Knowledge Sharing: Established a centralized documentation hub (Confluence/Wiki), slashing</tspan></text>
+<text x="16" y="446" xml:space="preserve"><tspan fill="#aaaaaa">     cross-team onboarding time.</tspan></text>
+<text x="16" y="486" xml:space="preserve"><tspan fill="#ff5555">▸ </tspan><tspan fill="#55ffff">DevOps Engineer</tspan><tspan fill="#555555">                                                              Mar 2020 – Oct 2022</tspan></text>
+<text x="16" y="506" xml:space="preserve"><tspan fill="#ffffff">   Deep Instinct</tspan></text>
+<text x="16" y="526" xml:space="preserve"><tspan fill="#aaaaaa">   - CI Pipeline Optimization: Revamped Jenkins-based CI pipelines, reducing deployment cycles</tspan></text>
+<text x="16" y="546" xml:space="preserve"><tspan fill="#aaaaaa">     through automated testing and quality gates.</tspan></text>
+<text x="16" y="566" xml:space="preserve"><tspan fill="#aaaaaa">   - Devex and Dev Enablement: Shared Library management, Artifactory guidelines and</tspan></text>
+<text x="16" y="586" xml:space="preserve"><tspan fill="#aaaaaa">     infrastructure, Slack/GitHub integration.</tspan></text>
+<text x="16" y="626" xml:space="preserve"><tspan fill="#ff5555">▸ </tspan><tspan fill="#55ffff">Solution Center Manager</tspan><tspan fill="#555555">                                                      Feb 2018 – Mar 2020</tspan></text>
+<text x="16" y="646" xml:space="preserve"><tspan fill="#ffffff">   Deep Instinct</tspan></text>
+<text x="16" y="666" xml:space="preserve"><tspan fill="#aaaaaa">   - Built and managed a team responsible for production and configuration management, including</tspan></text>
+<text x="16" y="686" xml:space="preserve"><tspan fill="#aaaaaa">     customer-specific setups (e.g., security thresholds, compliance rules) and maintenance of</tspan></text>
+<text x="16" y="706" xml:space="preserve"><tspan fill="#aaaaaa">     staging/production environments for AI-driven cybersecurity solutions.</tspan></text>
+<text x="16" y="746" xml:space="preserve"><tspan fill="#ff5555">▸ </tspan><tspan fill="#55ffff">SaaS Operations – Change Management Engineer / Application Support</tspan><tspan fill="#555555">           Jul 2012 – Feb 2018</tspan></text>
+<text x="16" y="766" xml:space="preserve"><tspan fill="#ffffff">   RSA Security</tspan></text>
+<text x="16" y="786" xml:space="preserve"><tspan fill="#aaaaaa">   - Accompanied the integration of new features from SRS to deployment, providing feedback to</tspan></text>
+<text x="16" y="806" xml:space="preserve"><tspan fill="#aaaaaa">     RND/QE teams to safeguard deployment in production and align with PCI requirements.</tspan></text>
+<text x="16" y="826" xml:space="preserve"><tspan fill="#aaaaaa">   - Developed scripts, guides and documentation for handling cryptographic keys.</tspan></text>
+<text x="16" y="866" xml:space="preserve"><tspan fill="#ff5555">▸ </tspan><tspan fill="#55ffff">IT Manager</tspan><tspan fill="#555555">                                                                   Sep 2009 – May 2012</tspan></text>
+<text x="16" y="886" xml:space="preserve"><tspan fill="#ffffff">   TradeFXL/Markets.com</tspan></text>
+<text x="16" y="926" xml:space="preserve"><tspan fill="#ff5555">▸ </tspan><tspan fill="#55ffff">Sysadmin, Helpdesk</tspan><tspan fill="#555555">                                                           May 2006 – Dec 2007</tspan></text>
+<text x="16" y="946" xml:space="preserve"><tspan fill="#ffffff">   Bynet Data Communications</tspan></text>
+<text x="16" y="986" xml:space="preserve"><tspan fill="#555555">──────────────────────────────────────────────────────────────────────────────────────────────────</tspan></text>
+<text x="16" y="1006" xml:space="preserve"><tspan fill="#555555">end of screen  ·  pick another key from the menu</tspan></text>
 </svg>
