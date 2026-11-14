@@ -2,6 +2,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="60" viewBox="0 0 800 60" font-family="Consolas,'Liberation Mono','DejaVu Sans Mono',Menlo,monospace" font-size="13">
 <style>text,tspan{white-space:pre}</style>
 <rect width="800" height="60" fill="#000000"/>
-<text x="16" y="14" xml:space="preserve"><tspan fill="#ff5555">▸ </tspan><tspan fill="#ff5555">Email</tspan><tspan fill="#555555">:</tspan><tspan fill="#555555"> ········· </tspan><tspan fill="#55ffff">you@example.com</tspan><tspan fill="#555555">                                                          → open</tspan></text>
-<text x="16" y="34" xml:space="preserve"><tspan fill="#555555">   ↳ mailto:you@example.com</tspan></text>
+<text x="16" y="14" xml:space="preserve"><tspan fill="#ff5555">▸ </tspan><tspan fill="#ff5555">Email</tspan><tspan fill="#555555">:</tspan><tspan fill="#555555"> ········· </tspan><tspan fill="#55ffff">github@abutbul.com</tspan><tspan fill="#555555">                                                       → open</tspan></text>
+<text x="16" y="34" xml:space="preserve"><tspan fill="#555555">   ↳ mailto:github@abutbul.com</tspan></text>
 </svg>

@@ -4,7 +4,7 @@
 <rect width="800" height="204" fill="#000000"/>
 <text x="16" y="26" xml:space="preserve"><tspan fill="#ffff55">[ABOUT]</tspan></text>
 <text x="16" y="46" xml:space="preserve"><tspan fill="#555555">──────────────────────────────────────────────────────────────────────────────────────────────────</tspan></text>
-<text x="16" y="66" xml:space="preserve"><tspan fill="#aaaaaa">  David Abutbul — full-stack developer and old-school BBS head.</tspan></text>
+<text x="16" y="66" xml:space="preserve"><tspan fill="#aaaaaa">  David Abutbul — LLM security researcher and old-school BBS head.</tspan></text>
 <text x="16" y="86" xml:space="preserve"><tspan fill="#aaaaaa">  I build MCP servers, LLM agent tooling and retro systems.</tspan></text>
 <text x="16" y="106" xml:space="preserve"><tspan fill="#aaaaaa">  Running a Synchronet BBS for fun, keeping the 80s-90s scene alive.</tspan></text>
 <text x="16" y="126" xml:space="preserve"><tspan fill="#aaaaaa">  Give me a dial-up tone and a 16-color palette and I am home.</tspan></text>

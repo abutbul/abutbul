@@ -68,6 +68,17 @@ def wrap(text, first, rest, cols=COLS):
                          subsequent_indent=rest, break_long_words=False) or [first]
 
 
+def wrap_items(items, sep, cols):
+    """Join ``items`` with ``sep`` into as few lines as fit in ``cols``."""
+    lines = []
+    for item in items:
+        if lines and len(lines[-1]) + len(sep) + len(item) <= cols:
+            lines[-1] += sep + item
+        else:
+            lines.append(item)
+    return lines
+
+
 def pad_between(left, right, cols=COLS):
     """Spaces that push ``right`` to the last column after ``left``."""
     return " " * max(1, cols - left - right)
@@ -228,7 +239,9 @@ def screen_logon(data, stats):
                center=True)
     s.blank()
     s.center("▄▄▄▄  T H E   " + spaced + "   B B S  ▄▄▄▄", "bcyan")
-    s.center(data["name"] + "  ·  " + data.get("title", ""), "lgray")
+    s.center(data["name"], "white")
+    for part in wrap_items(data.get("title", "").split(" · "), "  ·  ", COLS - 16):
+        s.center(part, "lgray")
     s.blank()
 
     connect = "CONNECT 57600 8N1  ·  ANSI detected"

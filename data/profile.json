@@ -2,7 +2,7 @@
   "github": "abutbul",
   "handle": "abutbul",
   "name": "David Abutbul",
-  "title": "Full-stack developer · BBS & MCP enthusiast",
+  "title": "AI/LLM Research · Open Source Advocate · Security-Minded Engineer · SecOps · Infrastructure · Automation · Radio Amateur 4X5PI",
   "location": "Israel",
   "blog": "https://abutbul.com",
   "palette": "acidi16",
@@ -10,7 +10,7 @@
     "host": "abutbul-bbs",
     "os": "Debian GNU/Linux (WSL2)",
     "uptime": "est. Dec 2010",
-    "kernel": "full-stack engineer",
+    "kernel": "LLM security researcher",
     "shell": "bash · zsh",
     "terminal": "cool-retro-term",
     "editor": "neovim",
@@ -51,7 +51,7 @@
     }
   ],
   "about": [
-    "David Abutbul — full-stack developer and old-school BBS head.",
+    "David Abutbul — LLM security researcher and old-school BBS head.",
     "I build MCP servers, LLM agent tooling and retro systems.",
     "Running a Synchronet BBS for fun, keeping the 80s-90s scene alive.",
     "Give me a dial-up tone and a 16-color palette and I am home."
@@ -91,17 +91,6 @@
         "Security"
       ],
       "stars": 37,
-      "group": "prompt-security  ·  contributed as davida-ps"
-    },
-    {
-      "name": "prompt-security/homegrown-ai-app-demo",
-      "url": "https://github.com/prompt-security/homegrown-ai-app-demo",
-      "desc": "Homegrown AI app demo.",
-      "tags": [
-        "HTML",
-        "Demo"
-      ],
-      "stars": 16,
       "group": "prompt-security  ·  contributed as davida-ps"
     },
     {
@@ -319,8 +308,8 @@
     },
     {
       "label": "Email",
-      "value": "you@example.com",
-      "url": "mailto:you@example.com"
+      "value": "github@abutbul.com",
+      "url": "mailto:github@abutbul.com"
     },
     {
       "label": "LinkedIn",
