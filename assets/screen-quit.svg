@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="172" viewBox="0 0 800 172" font-family="Consolas,'Liberation Mono','DejaVu Sans Mono',Menlo,monospace" font-size="13">
+<style>text,tspan{white-space:pre}</style>
+<rect width="800" height="172" fill="#000000"/>
+<text x="16" y="26" xml:space="preserve"><tspan fill="#ffff55">[QUIT]</tspan></text>
+<text x="16" y="46" xml:space="preserve"><tspan fill="#555555">──────────────────────────────────────────────────────────────────────────────────────────────────</tspan></text>
+<text x="16" y="66" xml:space="preserve"><tspan fill="#555555">  logging off...</tspan></text>
+<text x="400" y="106" text-anchor="middle" xml:space="preserve"><tspan fill="#ff5555">G O O D B Y E  ✦</tspan></text>
+<text x="16" y="146" xml:space="preserve"><tspan fill="#aaaaaa">  NO CARRIER</tspan></text>
+</svg>

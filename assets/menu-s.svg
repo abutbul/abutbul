@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="34" viewBox="0 0 800 34" font-family="Consolas,'Liberation Mono','DejaVu Sans Mono',Menlo,monospace" font-size="13">
+<style>text,tspan{white-space:pre}</style>
+<rect width="800" height="34" fill="#000000"/>
+<rect x="0.5" y="0.5" width="799" height="33" fill="none" stroke="#555555" stroke-width="1"/>
+<rect x="16" y="5" width="23.4" height="22" fill="#55ffff"/>
+<text x="16" y="21" xml:space="preserve"><tspan fill="#000000"> S </tspan></text>
+<text x="55" y="21" xml:space="preserve"><tspan fill="#ffffff">Skills</tspan><tspan fill="#555555"> ········································································· </tspan><tspan fill="#aaaaaa">system specs</tspan></text>
+</svg>

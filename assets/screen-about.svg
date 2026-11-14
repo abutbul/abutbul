@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="204" viewBox="0 0 800 204" font-family="Consolas,'Liberation Mono','DejaVu Sans Mono',Menlo,monospace" font-size="13">
+<style>text,tspan{white-space:pre}</style>
+<rect width="800" height="204" fill="#000000"/>
+<text x="16" y="26" xml:space="preserve"><tspan fill="#ffff55">[ABOUT]</tspan></text>
+<text x="16" y="46" xml:space="preserve"><tspan fill="#555555">──────────────────────────────────────────────────────────────────────────────────────────────────</tspan></text>
+<text x="16" y="66" xml:space="preserve"><tspan fill="#aaaaaa">  David Abutbul — full-stack developer and old-school BBS head.</tspan></text>
+<text x="16" y="86" xml:space="preserve"><tspan fill="#aaaaaa">  I build MCP servers, LLM agent tooling and retro systems.</tspan></text>
+<text x="16" y="106" xml:space="preserve"><tspan fill="#aaaaaa">  Running a Synchronet BBS for fun, keeping the 80s-90s scene alive.</tspan></text>
+<text x="16" y="126" xml:space="preserve"><tspan fill="#aaaaaa">  Give me a dial-up tone and a 16-color palette and I am home.</tspan></text>
+<text x="16" y="166" xml:space="preserve"><tspan fill="#555555">──────────────────────────────────────────────────────────────────────────────────────────────────</tspan></text>
+<text x="16" y="186" xml:space="preserve"><tspan fill="#555555">end of screen  ·  pick another key from the menu</tspan></text>
+</svg>

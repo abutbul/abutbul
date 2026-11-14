@@ -21,27 +21,33 @@
   "menu": [
     {
       "key": "A",
-      "label": "About"
+      "label": "About",
+      "hint": "who runs this board"
     },
     {
       "key": "P",
-      "label": "Projects"
+      "label": "Projects",
+      "hint": "file area"
     },
     {
       "key": "W",
-      "label": "Work Experience"
+      "label": "Work Experience",
+      "hint": "service record"
     },
     {
       "key": "S",
-      "label": "Skills"
+      "label": "Skills",
+      "hint": "system specs"
     },
     {
       "key": "C",
-      "label": "Contact"
+      "label": "Contact",
+      "hint": "page the sysop"
     },
     {
       "key": "Q",
-      "label": "Quit"
+      "label": "Quit",
+      "hint": "log off"
     }
   ],
   "about": [

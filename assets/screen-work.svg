@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="184" viewBox="0 0 800 184" font-family="Consolas,'Liberation Mono','DejaVu Sans Mono',Menlo,monospace" font-size="13">
+<style>text,tspan{white-space:pre}</style>
+<rect width="800" height="184" fill="#000000"/>
+<text x="16" y="26" xml:space="preserve"><tspan fill="#ffff55">[WORK EXPERIENCE]</tspan></text>
+<text x="16" y="46" xml:space="preserve"><tspan fill="#555555">──────────────────────────────────────────────────────────────────────────────────────────────────</tspan></text>
+<text x="16" y="66" xml:space="preserve"><tspan fill="#ff5555">▸ </tspan><tspan fill="#55ffff">— work history not provided yet —</tspan></text>
+<text x="16" y="86" xml:space="preserve"><tspan fill="#aaaaaa">   paste your roles from LinkedIn/CV here</tspan></text>
+<text x="16" y="106" xml:space="preserve"><tspan fill="#aaaaaa">   - Add role + company + dates in data/profile.json</tspan></text>
+<text x="16" y="146" xml:space="preserve"><tspan fill="#555555">──────────────────────────────────────────────────────────────────────────────────────────────────</tspan></text>
+<text x="16" y="166" xml:space="preserve"><tspan fill="#555555">end of screen  ·  pick another key from the menu</tspan></text>
+</svg>

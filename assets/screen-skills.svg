@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="184" viewBox="0 0 800 184" font-family="Consolas,'Liberation Mono','DejaVu Sans Mono',Menlo,monospace" font-size="13">
+<style>text,tspan{white-space:pre}</style>
+<rect width="800" height="184" fill="#000000"/>
+<text x="16" y="26" xml:space="preserve"><tspan fill="#ffff55">[SKILLS]</tspan></text>
+<text x="16" y="46" xml:space="preserve"><tspan fill="#555555">──────────────────────────────────────────────────────────────────────────────────────────────────</tspan></text>
+<text x="16" y="66" xml:space="preserve"><tspan fill="#ff5555">▸ </tspan><tspan fill="#ff5555">languages</tspan><tspan fill="#555555">:</tspan><tspan fill="#ffffff">  Python · TypeScript · JavaScript · C++ · Shell · Vue</tspan></text>
+<text x="16" y="86" xml:space="preserve"><tspan fill="#ff5555">▸ </tspan><tspan fill="#ff5555">domains</tspan><tspan fill="#555555">:</tspan><tspan fill="#ffffff">  MCP servers · LLM agents · BBS systems · Docker · game modding · audio DSP</tspan></text>
+<text x="16" y="106" xml:space="preserve"><tspan fill="#ff5555">▸ </tspan><tspan fill="#ff5555">tools</tspan><tspan fill="#555555">:</tspan><tspan fill="#ffffff">  Git · GitHub Actions · Docker · Ollama · Spleeter/sox · Quarto</tspan></text>
+<text x="16" y="146" xml:space="preserve"><tspan fill="#555555">──────────────────────────────────────────────────────────────────────────────────────────────────</tspan></text>
+<text x="16" y="166" xml:space="preserve"><tspan fill="#555555">end of screen  ·  pick another key from the menu</tspan></text>
+</svg>
