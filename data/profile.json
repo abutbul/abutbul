@@ -229,14 +229,15 @@
       "TypeScript",
       "JavaScript",
       "C++",
-      "Bash",
-      "Vue"
+      "Bash"
     ],
     "domains": [
+      "LLM security & red teaming",
+      "RAG poisoning & prompt injection",
       "MCP servers",
       "LLM agents",
       "BBS systems",
-      "Docker",
+      "amateur radio",
       "game modding",
       "audio DSP"
     ],
@@ -244,9 +245,11 @@
       "Git",
       "GitHub Actions",
       "Docker",
-      "Ollama",
-      "Spleeter/sox",
-      "Quarto"
+      "LangChain",
+      "ChromaDB",
+      "React",
+      "FastAPI",
+      "Ollama"
     ]
   },
   "contact": [

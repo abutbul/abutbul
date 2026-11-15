@@ -68,9 +68,9 @@
 
 <h2>Skills</h2>
 <table>
-<tr><td><b>Languages</b></td><td><code>Python</code> <code>TypeScript</code> <code>JavaScript</code> <code>C++</code> <code>Bash</code> <code>Vue</code></td></tr>
-<tr><td><b>Domains</b></td><td><code>MCP servers</code> <code>LLM agents</code> <code>BBS systems</code> <code>Docker</code> <code>game modding</code> <code>audio DSP</code></td></tr>
-<tr><td><b>Tools</b></td><td><code>Git</code> <code>GitHub Actions</code> <code>Docker</code> <code>Ollama</code> <code>Spleeter/sox</code> <code>Quarto</code></td></tr>
+<tr><td><b>Languages</b></td><td><code>Python</code> <code>TypeScript</code> <code>JavaScript</code> <code>C++</code> <code>Bash</code></td></tr>
+<tr><td><b>Domains</b></td><td><code>LLM security &amp; red teaming</code> <code>RAG poisoning &amp; prompt injection</code> <code>MCP servers</code> <code>LLM agents</code> <code>BBS systems</code> <code>amateur radio</code> <code>game modding</code> <code>audio DSP</code></td></tr>
+<tr><td><b>Tools</b></td><td><code>Git</code> <code>GitHub Actions</code> <code>Docker</code> <code>LangChain</code> <code>ChromaDB</code> <code>React</code> <code>FastAPI</code> <code>Ollama</code></td></tr>
 </table>
 
 <h2>Contact</h2>
