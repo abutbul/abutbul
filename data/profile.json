@@ -2,63 +2,22 @@
   "github": "abutbul",
   "handle": "abutbul",
   "name": "David Abutbul",
+  "greeting": "Hi, I am",
+  "callsign": "4X5PI",
+  "year": 1984,
   "title": "AI/LLM Research · Open Source Advocate · Security-Minded Engineer · SecOps · Infrastructure · Automation · Radio Amateur 4X5PI",
   "location": "Israel",
   "blog": "https://abutbul.com",
   "palette": "acidi16",
-  "neofetch": {
-    "host": "abutbul-bbs",
-    "os": "Debian GNU/Linux (WSL2)",
-    "uptime": "est. Dec 2010",
-    "kernel": "LLM security researcher",
-    "shell": "bash · zsh",
-    "terminal": "cool-retro-term",
-    "editor": "neovim",
-    "focus": "MCP + LLM agents",
-    "languages": "Python · TypeScript · C++ · Shell",
-    "interests": "BBS scene · MCP servers · LLM agents"
-  },
-  "menu": [
-    {
-      "key": "A",
-      "label": "About",
-      "hint": "who runs this board"
-    },
-    {
-      "key": "P",
-      "label": "Projects",
-      "hint": "file area"
-    },
-    {
-      "key": "W",
-      "label": "Work Experience",
-      "hint": "service record"
-    },
-    {
-      "key": "S",
-      "label": "Skills",
-      "hint": "system specs"
-    },
-    {
-      "key": "C",
-      "label": "Contact",
-      "hint": "page the sysop"
-    },
-    {
-      "key": "Q",
-      "label": "Quit",
-      "hint": "log off"
-    }
-  ],
   "about": [
-    "David Abutbul — LLM security researcher and old-school BBS head.",
+    "LLM security researcher and old-school BBS head.",
     "I build MCP servers, LLM agent tooling and retro systems.",
     "Running a Synchronet BBS for fun, keeping the 80s-90s scene alive.",
     "Give me a dial-up tone and a 16-color palette and I am home."
   ],
   "projects": [
     {
-      "name": "prompt-security/clawsec",
+      "name": "clawsec",
       "url": "https://github.com/prompt-security/clawsec",
       "desc": "Security skill suite for OpenClaw-family agents: drift detection, audits, integrity checks.",
       "tags": [
@@ -67,10 +26,10 @@
         "Security"
       ],
       "stars": 1136,
-      "group": "prompt-security  ·  contributed as davida-ps"
+      "group": "Prompt Security"
     },
     {
-      "name": "prompt-security/ps-fuzz",
+      "name": "ps-fuzz",
       "url": "https://github.com/prompt-security/ps-fuzz",
       "desc": "Make your GenAI apps safe & secure: test & harden your system prompt.",
       "tags": [
@@ -79,10 +38,10 @@
         "Fuzzing"
       ],
       "stars": 720,
-      "group": "prompt-security  ·  contributed as davida-ps"
+      "group": "Prompt Security"
     },
     {
-      "name": "prompt-security/RAG_Poisoning_POC",
+      "name": "RAG_Poisoning_POC",
       "url": "https://github.com/prompt-security/RAG_Poisoning_POC",
       "desc": "Stealthy prompt injection and poisoning in RAG systems via vector database embeddings.",
       "tags": [
@@ -91,10 +50,10 @@
         "Security"
       ],
       "stars": 37,
-      "group": "prompt-security  ·  contributed as davida-ps"
+      "group": "Prompt Security"
     },
     {
-      "name": "prompt-security/rag-poisoning-workshop",
+      "name": "rag-poisoning-workshop",
       "url": "https://github.com/prompt-security/rag-poisoning-workshop",
       "desc": "Hands-on workshop: RAG poisoning / indirect prompt injection via vector DB embeddings.",
       "tags": [
@@ -103,7 +62,7 @@
         "Workshop"
       ],
       "stars": 0,
-      "group": "prompt-security  ·  contributed as davida-ps"
+      "group": "Prompt Security"
     },
     {
       "name": "openapi-mcp-generator",
@@ -115,7 +74,7 @@
         "Docker"
       ],
       "stars": 28,
-      "group": "abutbul  ·  personal"
+      "group": "Personal"
     },
     {
       "name": "mod-game-state-api",
@@ -126,7 +85,7 @@
         "Game"
       ],
       "stars": 6,
-      "group": "abutbul  ·  personal"
+      "group": "Personal"
     },
     {
       "name": "NoDrums",
@@ -138,7 +97,7 @@
         "ML"
       ],
       "stars": 5,
-      "group": "abutbul  ·  personal"
+      "group": "Personal"
     },
     {
       "name": "docker-knapsack-llm",
@@ -150,7 +109,7 @@
         "Shell"
       ],
       "stars": 4,
-      "group": "abutbul  ·  personal"
+      "group": "Personal"
     },
     {
       "name": "mcp-host",
@@ -162,7 +121,7 @@
         "Ollama"
       ],
       "stars": 1,
-      "group": "abutbul  ·  personal"
+      "group": "Personal"
     },
     {
       "name": "imgen",
@@ -173,7 +132,7 @@
         "Graphics"
       ],
       "stars": 1,
-      "group": "abutbul  ·  personal"
+      "group": "Personal"
     },
     {
       "name": "gizbar",
@@ -183,7 +142,7 @@
         "TypeScript"
       ],
       "stars": 0,
-      "group": "abutbul  ·  personal"
+      "group": "Personal"
     },
     {
       "name": "trbbs",
@@ -194,7 +153,7 @@
         "Bots"
       ],
       "stars": 0,
-      "group": "abutbul  ·  personal"
+      "group": "Personal"
     }
   ],
   "work": [
@@ -317,13 +276,7 @@
       "url": "https://www.linkedin.com/in/abutbul"
     }
   ],
-  "stats": {
-    "enable": true,
-    "show": [
-      "repos",
-      "followers",
-      "following",
-      "stars"
-    ]
+  "group_notes": {
+    "Prompt Security": "Open-source work, contributed from my work account davida-ps."
   }
 }

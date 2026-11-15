@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="410.0" viewBox="0 0 800 410.0" font-family="Consolas,'Liberation Mono','DejaVu Sans Mono',Menlo,monospace" font-size="13">
+<style>text,tspan{white-space:pre}</style>
+<rect width="800" height="410.0" rx="8" fill="#000000"/>
+<text x="400" y="34" text-anchor="middle" xml:space="preserve"><tspan fill="#aaaaaa">(c) 1984 ABUTBUL SYSTEMS  ·  ANSI/VT100 16-COLOR</tspan></text>
+<text x="400" y="73" text-anchor="middle" font-size="12" xml:space="preserve"><tspan fill="#ff5555">██╗  ██╗██╗       ██╗     █████╗ ███╗   ███╗</tspan></text>
+<text x="400" y="88" text-anchor="middle" font-size="12" xml:space="preserve"><tspan fill="#ffff55">██║  ██║██║       ██║    ██╔══██╗████╗ ████║</tspan></text>
+<text x="400" y="103" text-anchor="middle" font-size="12" xml:space="preserve"><tspan fill="#55ff55">███████║██║       ██║    ███████║██╔████╔██║</tspan></text>
+<text x="400" y="118" text-anchor="middle" font-size="12" xml:space="preserve"><tspan fill="#55ffff">██╔══██║██║       ██║    ██╔══██║██║╚██╔╝██║</tspan></text>
+<text x="400" y="133" text-anchor="middle" font-size="12" xml:space="preserve"><tspan fill="#5555ff">██║  ██║██║▄█╗    ██║    ██║  ██║██║ ╚═╝ ██║</tspan></text>
+<text x="400" y="148" text-anchor="middle" font-size="12" xml:space="preserve"><tspan fill="#ff55ff">╚═╝  ╚═╝╚═╝╚═╝    ╚═╝    ╚═╝  ╚═╝╚═╝     ╚═╝</tspan></text>
+<text x="400" y="173" text-anchor="middle" font-size="12" xml:space="preserve"><tspan fill="#ff5555">██████╗  █████╗ ██╗   ██╗██╗██████╗      █████╗ ██████╗ ██╗   ██╗████████╗██████╗ ██╗   ██╗██╗     </tspan></text>
+<text x="400" y="188" text-anchor="middle" font-size="12" xml:space="preserve"><tspan fill="#ffff55">██╔══██╗██╔══██╗██║   ██║██║██╔══██╗    ██╔══██╗██╔══██╗██║   ██║╚══██╔══╝██╔══██╗██║   ██║██║     </tspan></text>
+<text x="400" y="203" text-anchor="middle" font-size="12" xml:space="preserve"><tspan fill="#55ff55">██║  ██║███████║██║   ██║██║██║  ██║    ███████║██████╔╝██║   ██║   ██║   ██████╔╝██║   ██║██║     </tspan></text>
+<text x="400" y="218" text-anchor="middle" font-size="12" xml:space="preserve"><tspan fill="#55ffff">██║  ██║██╔══██║╚██╗ ██╔╝██║██║  ██║    ██╔══██║██╔══██╗██║   ██║   ██║   ██╔══██╗██║   ██║██║     </tspan></text>
+<text x="400" y="233" text-anchor="middle" font-size="12" xml:space="preserve"><tspan fill="#5555ff">██████╔╝██║  ██║ ╚████╔╝ ██║██████╔╝    ██║  ██║██████╔╝╚██████╔╝   ██║   ██████╔╝╚██████╔╝███████╗</tspan></text>
+<text x="400" y="248" text-anchor="middle" font-size="12" xml:space="preserve"><tspan fill="#ff55ff">╚═════╝ ╚═╝  ╚═╝  ╚═══╝  ╚═╝╚═════╝     ╚═╝  ╚═╝╚═════╝  ╚═════╝    ╚═╝   ╚═════╝  ╚═════╝ ╚══════╝</tspan></text>
+<text x="400" y="284" text-anchor="middle" xml:space="preserve"><tspan fill="#55ffff">▄▄▄▄  4 X 5 P I  ▄▄▄▄</tspan></text>
+<text x="16" y="324" xml:space="preserve"><tspan fill="#00aa00">CONNECT 57600 8N1  ·  ANSI detected</tspan><tspan fill="#000000">                                                       </tspan><tspan fill="#55ff55">● ONLINE</tspan></text>
+<text x="16" y="344" xml:space="preserve"><tspan fill="#aaaaaa">LOGIN   </tspan><tspan fill="#55ffff">abutbul</tspan></text>
+<text x="16" y="364" xml:space="preserve"><tspan fill="#aaaaaa">PASSWD  </tspan><tspan fill="#555555">●●●●●●●●●</tspan></text>
+<text x="16" y="384" xml:space="preserve"><tspan fill="#ff5555">* ACCESS GRANTED *</tspan></text>
+</svg>

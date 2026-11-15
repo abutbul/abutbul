@@ -2,4 +2,4 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 python3 generator/generate.py
-echo "Done. Open preview/index.html in a browser to try the menu."
+echo "Done. Open preview/index.html in a browser to see the page."
